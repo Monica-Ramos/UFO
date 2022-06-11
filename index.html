@@ -13,15 +13,17 @@
     />
     <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body>
+
+<body class="bg-dark"></body>
     <div class="wrapper">
-        <nav class="navbar navbar-expand-lg">
+        
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
     </div>
 
     <div class="jumbotron">
-        <h1>The Truth Is Out There</h1>   
+        <h1 class="display-4">The Truth is Out There</h1>     
     </div>
 
 
@@ -44,31 +46,28 @@
         <div class="row">
         <!-- Add the filter section-->
           <div class="col-md-3"> 
-            <form>
+            <form class="bg-dark">
                 <p>Filter Search</p>
 
                 <!-- Starting unordered list-->>  
-                <ul class="list-group">
+                <ul class="bg-dark">
 
-                <!-- Add the list elements-->>  
-                <li class="list-group-item">
-                <!-- Add label tag-->>  
-                <label for="date">Enter Date</label>
-                <!-- Add input tag-->>  
-                <input type="text" placeholder="1/10/2010" id="datetime" />
-                </li>
+                    <!-- Add the list elements-->>  
+                    <li class="bg-dark" ; style="font-family: inherit; font-size: 1rem;">
+                        <!-- Add label tag-->>  
+                        <label for="date">Enter Date</label>
+                        <!-- Add input tag-->>  
+                        <input type="text" placeholder="1/10/2010" id="datetime" />
+                    </li>
     
-                <li class="list-group-item">
-                <!-- Add a button tag-->> 
-                <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>   
+                    <li class="bg-dark"; style="font-family: inherit; font-size: 1rem;">
+                        <!-- Add a button tag-->> 
+                        <button id="filter-btn" type="button" class="btn-dark">Filter Table</button>   
         
-                </li>
+                    </li>
     
                 </ul>
                 
-
-
-
             </form>
 
            
@@ -99,7 +98,10 @@
           </div>
         </div>
     </div>
-
+    <!-- Add our scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
     
     
 </body>
