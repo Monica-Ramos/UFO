@@ -10,13 +10,13 @@ When we navigate into the html file, this if how the web page looks like.
 
 ![](static/images/initial_webpage.png)
 
-As we can observe there is a section that cointains 6 filters that will help the user narrow his search.Additionally we can see that each filter cointains a blueprint that tells the user the format needed to be enter.
+As we can observe there is a section that cointains 6 filters that will help the user narrow his search.Additionally we can see that each filter cointains a blueprint that tells the user the format that needd to be entered.
 
 So the first filter to be used is based on the date of the sighting. In this case we will create a hypothetic scenario where we want to obtain data for the 1st of January 2010, so following the blueprint we enter 1/1/2010 in the enter date filter. Once we enter this date on the filter, we can see that our data is reduced and only shows sightings for this specific date.
 
 ![](static/images/enter_date.png)
 
-Next we will filter the data based on a specific city, for these example we will use "benton". So we enter this city name and we are able to see that the previous filter is maintained and the new city filter is added to it. So basically we are filtering our data on multiple criteria. The result obained is just on sighting. 
+Next we will filter the data based on a specific city, for these example we will use "benton". So when we enter this city name we are able to see that the previous filter is maintained and the new city filter is added to it. So basically we are filtering our data on multiple criteria. The result obained is just on sighting. 
 
 ![](static/images/enter_city.png)
 
